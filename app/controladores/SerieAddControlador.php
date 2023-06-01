@@ -3,6 +3,7 @@
     $serie = new Serie();
 
     $series = $serie->getPelicula();
+/* ESTE CODIGO ES PARA FUNCIONES DE CLIC*/
 
     require_once dirname(__FILE__).'/../vistas/SerieAddFrmVista.php';
 
