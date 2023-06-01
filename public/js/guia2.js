@@ -1,15 +1,14 @@
-
 /* ------------------------------------------------------------------------------------------------------------------ */
 /*                                                  Tipos de datos JS                                                 */
 /* ------------------------------------------------------------------------------------------------------------------ */
 
-var nombre  = "Enoc";// String
-let edad    = 25;//number
-const PI    = 3.1416;// Por lo general el nombre de las variables que son constantes de escriben en mayusculas, como PI que ese número no cambiará nunca
+var nombre = "Enoc"; // String
+let edad = 25; //number
+const PI = 3.1416; // Por lo general el nombre de las variables que son constantes de escriben en mayusculas, como PI que ese número no cambiará nunca
 
 
 let mayorEdad;
-if(edad <= 17){
+if (edad <= 17) {
     mayorEdad = false;
 } else {
     mayorEdad = true;
@@ -17,7 +16,7 @@ if(edad <= 17){
 
 let vacio = null;
 let indefinido = undefined;
-let arreglo = ["Henry","Martinez",19,false,null,undefined];
+let arreglo = ["Henry", "Martinez", 19, false, null, undefined];
 
 
 
@@ -51,7 +50,7 @@ x++;
 
 //x = x+y;
 x += y;
- //console.log(x); // imprime 15
+//console.log(x); // imprime 15
 /* console.log(x - y); // imprime 5
 console.log(x * y); // imprime 50
 console.log(x / y); // imprime 2
@@ -64,14 +63,14 @@ if (edad >= 18) {
     console.log("Eres menor de edad");
 }
 
-console.log("La suma es" + suma(x,y) + " seguimos escribiendo");
+console.log("La suma es" + suma(x, y) + " seguimos escribiendo");
 console.log(`La suma es ${suma(x,y)} seguimos escrib`);
 
 
 
 
 
-function suma(a,b){
+function suma(a, b) {
     return a + b;
 }
 
@@ -80,3 +79,4 @@ function suma(a,b){
 /* ------------------------------------------------------------------------------------------------------------------ */
 /* Hacer todas las funciones de suma,resta,multiplicacion y division y que se imprima como en la linea 47  console.log("La suma es"+ suma(x+b));*/
 
+/* ESTE CODIGO ES PARA FUNCIONES DE CLIC*/
